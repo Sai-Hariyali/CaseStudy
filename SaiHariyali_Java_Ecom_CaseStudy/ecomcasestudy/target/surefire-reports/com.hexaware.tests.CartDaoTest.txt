@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.hexaware.tests.CartDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.589 s <<< FAILURE! - in com.hexaware.tests.CartDaoTest
+testExceptionForInvalidCustomerID(com.hexaware.tests.CartDaoTest)  Time elapsed: 0.486 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.hexaware.exception.CustomerNotFoundException
+
+testExceptionForInvalidProductID(com.hexaware.tests.CartDaoTest)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: com.hexaware.exception.ProductNotFoundException
+

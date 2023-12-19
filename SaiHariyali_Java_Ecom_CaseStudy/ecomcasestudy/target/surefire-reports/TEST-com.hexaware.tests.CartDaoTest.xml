@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hexaware.tests.CartDaoTest" time="0.589" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SAI\eclipse-workspace\ecomcasestudy\target\test-classes;C:\Users\SAI\eclipse-workspace\ecomcasestudy\target\classes;C:\Users\SAI\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\SAI\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SAI\.m2\repository\mysql\mysql-connector-java\8.0.23\mysql-connector-java-8.0.23.jar;C:\Users\SAI\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\SAI\AppData\Local\Temp\surefire3370713245258916754\surefirebooter8447492530244334559.jar C:\Users\SAI\AppData\Local\Temp\surefire3370713245258916754 2023-12-19T11-49-14_486-jvmRun1 surefire9667985635808637223tmp surefire_05792475221311109706tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SAI\eclipse-workspace\ecomcasestudy\target\test-classes;C:\Users\SAI\eclipse-workspace\ecomcasestudy\target\classes;C:\Users\SAI\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\SAI\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SAI\.m2\repository\mysql\mysql-connector-java\8.0.23\mysql-connector-java-8.0.23.jar;C:\Users\SAI\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SAI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SAI\eclipse-workspace\ecomcasestudy"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SAI\AppData\Local\Temp\surefire3370713245258916754\surefirebooter8447492530244334559.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="SAI"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SAI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAI\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\SAI\eclipse-workspace\ecomcasestudy"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;D:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\SAI\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\SAI\AppData\Local\Programs\Python\Python310\;C:\Users\SAI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CodeBlocks\MinGW\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\SAI\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-17.0.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testExceptionForInvalidCustomerID" classname="com.hexaware.tests.CartDaoTest" time="0.486">
+    <failure message="Expected exception: com.hexaware.exception.CustomerNotFoundException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: com.hexaware.exception.CustomerNotFoundException
+</failure>
+    <system-out><![CDATA[Cart with id 16 already exists.
+]]></system-out>
+  </testcase>
+  <testcase name="testNewCartEntry" classname="com.hexaware.tests.CartDaoTest" time="0.022"/>
+  <testcase name="testExceptionForInvalidProductID" classname="com.hexaware.tests.CartDaoTest" time="0.025">
+    <failure message="Expected exception: com.hexaware.exception.ProductNotFoundException" type="java.lang.AssertionError">java.lang.AssertionError: Expected exception: com.hexaware.exception.ProductNotFoundException
+</failure>
+    <system-out><![CDATA[Cart with id 16 already exists.
+]]></system-out>
+  </testcase>
+</testsuite>
